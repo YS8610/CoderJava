@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "decode",
+      "request": "launch",
+      "mainClass": "com.dxc.ys.App",
+      "args": ["decode","CFCJJM UMPJB"]
+    },
+  {
+    "type": "java",
+    "name": "encode",
+    "request": "launch",
+    "mainClass": "com.dxc.ys.App",
+    "args": ["C","HELLO WORLD"]
+  }
+  ]
+}
