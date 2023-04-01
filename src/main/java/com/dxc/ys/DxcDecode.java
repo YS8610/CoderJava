@@ -11,18 +11,9 @@ public class DxcDecode implements DecodeInterface {
     int offset=-1;
     String[] offsetArray = new String[44];
     int counter = 0;
-    String[] originalRef = new String[44];
+    String[] originalRef = DxcCoder.getOriginalRef();
     Map<String,String> decodeMap = new HashMap<>();
 
-    for (int i=0;i<26;i++){
-        originalRef[i]= String.valueOf((char)(i + 65));
-    }
-    for (int i=26; i<36;i++){
-        originalRef[i]= String.valueOf(i-26); 
-    }
-    for (int i=36;i<44;i++){
-        originalRef[i]= String.valueOf((char)(i + 4 ));
-    }
     for (int i=0;i<44;i++){
         if(originalRef[i].equals(a) ){
           offset=i;

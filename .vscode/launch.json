@@ -5,14 +5,14 @@
       "name": "decode",
       "request": "launch",
       "mainClass": "com.dxc.ys.App",
-      "args": ["decode","CFCJJM UMPJB"]
+      "args": ["decode","FC/GGJ RJMG."]
     },
   {
     "type": "java",
     "name": "encode",
     "request": "launch",
     "mainClass": "com.dxc.ys.App",
-    "args": ["C","HELLO WORLD"]
+    "args": ["F","HELLO WORLD"]
   }
   ]
 }
